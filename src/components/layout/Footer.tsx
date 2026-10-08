@@ -27,9 +27,9 @@ export default function Footer() {
           <div className="space-y-8">
             {/* Brand */}
             <div className="space-y-4">
-              <h3 className="text-xl font-serif font-bold tracking-wide text-[#0A1F15] uppercase">
+              <Link href="/" className="inline-block text-xl font-serif font-bold tracking-wide text-[#0A1F15] uppercase hover:opacity-80 transition-opacity">
                 KRISHNA BHATTARI
-              </h3>
+              </Link>
               <p className="text-sm text-gray-600 leading-relaxed max-w-xs">
                 Dedicated to preserving the wilderness of Bardia National Park and fostering a new generation of conservation-minded travelers.
               </p>

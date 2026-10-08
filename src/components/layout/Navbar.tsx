@@ -8,9 +8,9 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center">
-          <span className="text-sm font-bold tracking-[0.2em] uppercase text-[#1A1A1A]">
+          <Link href="/" className="text-sm font-bold tracking-[0.2em] uppercase text-[#1A1A1A] hover:opacity-80 transition-opacity">
             Krishna Bhattari
-          </span>
+          </Link>
         </div>
 
         {/* Book Button */}
